@@ -1,0 +1,2452 @@
+[
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "vector space",
+        "file": "Mathlib/Algebra/Module/Defs.lean#L57-L62",
+        "name": "Module"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "product of vector spaces",
+        "file": "Mathlib/Algebra/Module/Prod.lean#L32-L36",
+        "name": "Prod.instModule"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "vector subspace",
+        "file": "Mathlib/Algebra/Module/Submodule/Basic.lean#L449-L450",
+        "name": "Subspace"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "quotient space",
+        "file": "Mathlib/LinearAlgebra/Quotient.lean#L44-L45",
+        "name": "Submodule.hasQuotient"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "sum of subspaces",
+        "file": "Mathlib/Algebra/Module/Submodule/Lattice.lean#L190-L204",
+        "name": "Submodule.completeLattice"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "direct sum",
+        "file": "Mathlib/Algebra/DirectSum/Basic.lean#L371-L373",
+        "name": "DirectSum.IsInternal"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "complementary subspaces",
+        "file": "Mathlib/LinearAlgebra/Basis/VectorSpace.lean#L207-L209",
+        "name": "Submodule.exists_isCompl"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "linear independence",
+        "file": "Mathlib/LinearAlgebra/LinearIndependent.lean#L99-L100",
+        "name": "LinearIndependent"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "generating sets",
+        "file": "Mathlib/LinearAlgebra/Span.lean#L49-L50",
+        "name": "Submodule.span"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "bases",
+        "file": "Mathlib/LinearAlgebra/Basis/Defs.lean#L83-L88",
+        "name": "Basis"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "existence of bases",
+        "file": "Mathlib/LinearAlgebra/Basis/VectorSpace.lean#L98-L99",
+        "name": "Basis.ofVectorSpace"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "linear map",
+        "file": "Mathlib/Algebra/Module/LinearMap/Defs.lean#L83-L85",
+        "name": "LinearMap"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "range of a linear map",
+        "file": "Mathlib/Algebra/Module/Submodule/Range.lean#L56-L57",
+        "name": "LinearMap.range"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "kernel of a linear map",
+        "file": "Mathlib/Algebra/Module/Submodule/Ker.lean#L58-L59",
+        "name": "LinearMap.ker"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "algebra of endomorphisms of a vector space",
+        "file": "Mathlib/Algebra/Algebra/Basic.lean#L159-L160",
+        "name": "Module.End.instAlgebra"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Fundamentals",
+        "concept": "general linear group",
+        "file": "Mathlib/LinearAlgebra/GeneralLinearGroup.lean#L29-L30",
+        "name": "LinearMap.GeneralLinearGroup"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Duality",
+        "concept": "dual vector space",
+        "file": "Mathlib/LinearAlgebra/Dual.lean#L105-L106",
+        "name": "Module.Dual"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Duality",
+        "concept": "dual basis",
+        "file": "Mathlib/LinearAlgebra/Dual.lean#L394-L395",
+        "name": "Basis.dualBasis"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Duality",
+        "concept": "transpose of a linear map",
+        "file": "Mathlib/LinearAlgebra/Dual.lean#L135-L136",
+        "name": "Module.Dual.transpose"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Finite-dimensional vector spaces",
+        "concept": "finite-dimensionality",
+        "file": "Mathlib/LinearAlgebra/FiniteDimensional/Defs.lean#L77-L78",
+        "name": "FiniteDimensional"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Finite-dimensional vector spaces",
+        "concept": "isomorphism with $K^n$",
+        "file": "Mathlib/LinearAlgebra/Basis/Defs.lean#L688-L694",
+        "name": "Basis.equivFun"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Finite-dimensional vector spaces",
+        "concept": "rank of a linear map",
+        "file": "Mathlib/LinearAlgebra/Dimension/LinearMap.lean#L33-L34",
+        "name": "LinearMap.rank"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Finite-dimensional vector spaces",
+        "concept": "rank of a set of vectors",
+        "file": "Mathlib/LinearAlgebra/Dimension/Constructions.lean#L421-L422",
+        "name": "Set.finrank"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Finite-dimensional vector spaces",
+        "concept": "isomorphism with bidual",
+        "file": "Mathlib/LinearAlgebra/Dual.lean#L588-L589",
+        "name": "Module.evalEquiv"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Multilinearity",
+        "concept": "multilinear map",
+        "file": "Mathlib/LinearAlgebra/Multilinear/Basic.lean#L85-L96",
+        "name": "MultilinearMap"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Multilinearity",
+        "concept": "determinant of vectors",
+        "file": "Mathlib/LinearAlgebra/Determinant.lean#L451-L472",
+        "name": "Basis.det"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Multilinearity",
+        "concept": "determinant of endomorphisms",
+        "file": "Mathlib/LinearAlgebra/Determinant.lean#L157-L163",
+        "name": "LinearMap.det"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Multilinearity",
+        "concept": "orientation of a $\\R$-vector space",
+        "file": "Mathlib/LinearAlgebra/Orientation.lean#L46-L46",
+        "name": "Orientation"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "commutative-ring-valued matrices",
+        "file": "Mathlib/Data/Matrix/Basic.lean#L55-L56",
+        "name": "Matrix"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "field-valued matrices",
+        "file": "Mathlib/Data/Matrix/Basic.lean#L55-L56",
+        "name": "Matrix"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "matrix representation of a linear map",
+        "file": "Mathlib/LinearAlgebra/Matrix/ToLin.lean#L493-L494",
+        "name": "LinearMap.toMatrix"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "change of basis",
+        "file": "Mathlib/LinearAlgebra/Matrix/Basis.lean#L204-L208",
+        "name": "basis_toMatrix_mul_linearMap_toMatrix_mul_basis_toMatrix"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "rank of a matrix",
+        "file": "Mathlib/Data/Matrix/Rank.lean#L38-L39",
+        "name": "Matrix.rank"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "determinant",
+        "file": "Mathlib/LinearAlgebra/Matrix/Determinant/Basic.lean#L56-L57",
+        "name": "Matrix.det"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Matrices",
+        "concept": "invertibility",
+        "file": "Mathlib/LinearAlgebra/Matrix/NonsingularInverse.lean#L205-L206",
+        "name": "Matrix.inv"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Endomorphism polynomials",
+        "concept": "annihilating polynomials",
+        "file": "Mathlib/LinearAlgebra/AnnihilatingPolynomial.lean#L51-L52",
+        "name": "Polynomial.annIdeal"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Endomorphism polynomials",
+        "concept": "minimal polynomial",
+        "file": "Mathlib/FieldTheory/Minpoly/Basic.lean#L36-L37",
+        "name": "minpoly"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Endomorphism polynomials",
+        "concept": "characteristic polynomial",
+        "file": "Mathlib/LinearAlgebra/Matrix/Charpoly/Basic.lean#L90-L91",
+        "name": "Matrix.charpoly"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Endomorphism polynomials",
+        "concept": "Cayley-Hamilton theorem",
+        "file": "Mathlib/LinearAlgebra/Matrix/Charpoly/Basic.lean#L123-L143",
+        "name": "Matrix.aeval_self_charpoly"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Structure theory of endomorphisms",
+        "concept": "eigenvalue",
+        "file": "Mathlib/LinearAlgebra/Eigenspace/Basic.lean#L81-L82",
+        "name": "Module.End.HasEigenvalue"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Structure theory of endomorphisms",
+        "concept": "eigenvector",
+        "file": "Mathlib/LinearAlgebra/Eigenspace/Basic.lean#L73-L74",
+        "name": "Module.End.HasEigenvector"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Structure theory of endomorphisms",
+        "concept": "generalized eigenspaces",
+        "file": "Mathlib/LinearAlgebra/Eigenspace/Basic.lean#L164-L170",
+        "name": "Module.End.genEigenspace"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Structure theory of endomorphisms",
+        "concept": "Jordan-Chevalley-Dunford decomposition",
+        "file": "Mathlib/LinearAlgebra/JordanChevalley.lean#L74-L78",
+        "name": "Module.End.exists_isNilpotent_isSemisimple"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Linear representations",
+        "concept": "Schur's lemma",
+        "file": "Mathlib/RepresentationTheory/FDRep.lean#L127-L129",
+        "name": "FDRep.finrank_hom_simple_simple"
+    },
+    {
+        "domain": "Linear algebra",
+        "topic": "Exponential",
+        "concept": "matrix exponential",
+        "file": "Mathlib/Analysis/Normed/Algebra/Exponential.lean#L110-L111",
+        "name": "NormedSpace.exp"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "group",
+        "file": "Mathlib/Algebra/Group/Defs.lean#L1035-L1036",
+        "name": "Group"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "group morphism",
+        "file": "Mathlib/Algebra/Group/Hom/Defs.lean#L342-L343",
+        "name": "MonoidHom"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "direct product of groups",
+        "file": "Mathlib/Algebra/Group/Prod.lean#L194-L195",
+        "name": "Prod.instGroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "subgroup",
+        "file": "Mathlib/Algebra/Group/Subgroup/Basic.lean#L295-L297",
+        "name": "Subgroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "subgroup generated by a subset",
+        "file": "Mathlib/Algebra/Group/Subgroup/Basic.lean#L848-L849",
+        "name": "Subgroup.closure"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "normal subgroup",
+        "file": "Mathlib/Algebra/Group/Subgroup/Basic.lean#L1497-L1499",
+        "name": "Subgroup.Normal"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "quotient group",
+        "file": "Mathlib/GroupTheory/QuotientGroup/Basic.lean#L63-L64",
+        "name": "QuotientGroup.Quotient.group"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "group action",
+        "file": "Mathlib/Algebra/Group/Action/Defs.lean#L95-L99",
+        "name": "MulAction"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "stabilizer of a point",
+        "file": "Mathlib/GroupTheory/GroupAction/Basic.lean#L650-L652",
+        "name": "MulAction.stabilizer"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "orbit",
+        "file": "Mathlib/GroupTheory/GroupAction/Basic.lean#L46-L47",
+        "name": "MulAction.orbit"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "quotient space",
+        "file": "Mathlib/GroupTheory/GroupAction/Quotient.lean#L156-L160",
+        "name": "MulAction.orbitEquivQuotientStabilizer"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "class formula",
+        "file": "Mathlib/GroupTheory/GroupAction/Quotient.lean#L236-L237",
+        "name": "MulAction.selfEquivSigmaOrbitsQuotientStabilizer"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Basic definitions",
+        "concept": "conjugacy classes",
+        "file": "Mathlib/Algebra/Group/Conj.lean#L128-L129",
+        "name": "ConjClasses"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Abelian group",
+        "concept": "cyclic group",
+        "file": "Mathlib/Algebra/Group/Defs.lean#L872-L873",
+        "name": "IsCyclic"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Abelian group",
+        "concept": "finite type abelian groups",
+        "file": "Mathlib/GroupTheory/FiniteAbelian.lean#L111-L123",
+        "name": "AddCommGroup.equiv_free_prod_directSum_zmod"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Abelian group",
+        "concept": "complex roots of unity",
+        "file": "Mathlib/RingTheory/RootsOfUnity/Complex.lean#L69-L84",
+        "name": "Complex.mem_rootsOfUnity"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Abelian group",
+        "concept": "primitive complex roots of unity",
+        "file": "Mathlib/RingTheory/RootsOfUnity/Complex.lean#L54-L65",
+        "name": "Complex.isPrimitiveRoot_iff"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Permutation group",
+        "concept": "permutation group of a type",
+        "file": "Mathlib/Logic/Equiv/Defs.lean#L84-L85",
+        "name": "Equiv.Perm"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Permutation group",
+        "concept": "decomposition into transpositions",
+        "file": "Mathlib/GroupTheory/Perm/Sign.lean#L86-L89",
+        "name": "Equiv.Perm.truncSwapFactors"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Permutation group",
+        "concept": "decomposition into cycles with disjoint support",
+        "file": "Mathlib/GroupTheory/Perm/Cycle/Factors.lean#L413-L416",
+        "name": "Equiv.Perm.truncCycleFactors"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Permutation group",
+        "concept": "signature",
+        "file": "Mathlib/GroupTheory/Perm/Sign.lean#L365-L366",
+        "name": "Equiv.Perm.sign"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Permutation group",
+        "concept": "alternating group",
+        "file": "Mathlib/GroupTheory/SpecificGroups/Alternating.lean#L51-L52",
+        "name": "alternatingGroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Classical automorphism groups",
+        "concept": "general linear group",
+        "file": "Mathlib/LinearAlgebra/GeneralLinearGroup.lean#L29-L30",
+        "name": "LinearMap.GeneralLinearGroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Classical automorphism groups",
+        "concept": "special linear group",
+        "file": "Mathlib/LinearAlgebra/Matrix/SpecialLinearGroup.lean#L66-L67",
+        "name": "Matrix.SpecialLinearGroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Classical automorphism groups",
+        "concept": "orthogonal group",
+        "file": "Mathlib/LinearAlgebra/UnitaryGroup.lean#L201-L201",
+        "name": "Matrix.orthogonalGroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Classical automorphism groups",
+        "concept": "unitary group",
+        "file": "Mathlib/LinearAlgebra/UnitaryGroup.lean#L55-L56",
+        "name": "Matrix.unitaryGroup"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Representation theory of finite groups",
+        "concept": "Maschke theorem",
+        "file": "Mathlib/RepresentationTheory/Maschke.lean#L159-L162",
+        "name": "MonoidAlgebra.Submodule.exists_isCompl"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Representation theory of finite groups",
+        "concept": "orthogonality of irreducible characters",
+        "file": "Mathlib/RepresentationTheory/Character.lean#L107-L125",
+        "name": "FDRep.char_orthonormal"
+    },
+    {
+        "domain": "Group Theory",
+        "topic": "Representation theory of finite groups",
+        "concept": "characters of a finite dimensional representation",
+        "file": "Mathlib/RepresentationTheory/Character.lean#L47-L48",
+        "name": "FDRep.character"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Fundamentals",
+        "concept": "ring",
+        "file": "Mathlib/Algebra/Ring/Defs.lean#L143-L143",
+        "name": "Ring"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Fundamentals",
+        "concept": "subrings",
+        "file": "Mathlib/Algebra/Ring/Subring/Basic.lean#L139-L139",
+        "name": "Subring"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Fundamentals",
+        "concept": "ring morphisms",
+        "file": "Mathlib/Algebra/Ring/Hom/Defs.lean#L298-L299",
+        "name": "RingHom"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Fundamentals",
+        "concept": "ring structure $\\Z$",
+        "file": "Mathlib/Algebra/Ring/Int.lean#L28-L45",
+        "name": "Int.instCommRing"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Fundamentals",
+        "concept": "product of rings",
+        "file": "Mathlib/Algebra/Ring/Pi.lean#L83-L84",
+        "name": "Pi.ring"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Ideals and Quotients",
+        "concept": "ideal of a commutative ring",
+        "file": "Mathlib/RingTheory/Ideal/Basic.lean#L39-L40",
+        "name": "Ideal"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Ideals and Quotients",
+        "concept": "quotient rings",
+        "file": "Mathlib/RingTheory/Ideal/Quotient.lean#L44-L45",
+        "name": "Ideal.instHasQuotient"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Ideals and Quotients",
+        "concept": "prime ideals",
+        "file": "Mathlib/RingTheory/Ideal/Basic.lean#L203-L207",
+        "name": "Ideal.IsPrime"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Ideals and Quotients",
+        "concept": "maximal ideals",
+        "file": "Mathlib/RingTheory/Ideal/Basic.lean#L248-L251",
+        "name": "Ideal.IsMaximal"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Ideals and Quotients",
+        "concept": "Chinese remainder theorem",
+        "file": "Mathlib/RingTheory/Ideal/QuotientOperations.lean#L225-L228",
+        "name": "Ideal.quotientInfRingEquivPiQuotient"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Algebra",
+        "concept": "associative algebra over a commutative ring",
+        "file": "Mathlib/Algebra/Algebra/Defs.lean#L101-L104",
+        "name": "Algebra"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "irreducible elements",
+        "file": "Mathlib/Algebra/Associated/Basic.lean#L181-L185",
+        "name": "Irreducible"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "invertible elements",
+        "file": "Mathlib/Algebra/Group/Invertible/Defs.lean#L84-L90",
+        "name": "Invertible"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "coprime elements",
+        "file": "Mathlib/RingTheory/Coprime/Basic.lean#L38-L39",
+        "name": "IsCoprime"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "unique factorisation domain (UFD)",
+        "file": "Mathlib/RingTheory/UniqueFactorizationDomain.lean#L194-L196",
+        "name": "UniqueFactorizationMonoid"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "greatest common divisor",
+        "file": "Mathlib/Algebra/GCDMonoid/Basic.lean#L240-L256",
+        "name": "GCDMonoid"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "least common multiple",
+        "file": "Mathlib/Algebra/GCDMonoid/Basic.lean#L240-L256",
+        "name": "GCDMonoid"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "$A[{X_i}]$ is a UFD when $A$ is a UFD",
+        "file": "Mathlib/RingTheory/Polynomial/Basic.lean#L1266-L1278",
+        "name": "MvPolynomial.uniqueFactorizationMonoid"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "principal ideal domain",
+        "file": "Mathlib/LinearAlgebra/Span.lean#L57-L58",
+        "name": "Submodule.IsPrincipal"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "Euclidean rings",
+        "file": "Mathlib/Algebra/EuclideanDomain/Defs.lean#L72-L93",
+        "name": "EuclideanDomain"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "Euclid's' algorithm",
+        "file": "Mathlib/Data/Int/GCD.lean#L54-L55",
+        "name": "Nat.xgcd"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "$\\Z$ is a euclidean ring",
+        "file": "Mathlib/Algebra/EuclideanDomain/Int.lean#L15-L28",
+        "name": "Int.euclideanDomain"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "congruence in $\\Z$",
+        "file": "Mathlib/Data/Int/ModEq.lean#L28-L29",
+        "name": "Int.ModEq"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "prime numbers",
+        "file": "Mathlib/Algebra/Associated/Basic.lean#L42-L43",
+        "name": "Prime"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "Bézout's identity",
+        "file": "Mathlib/RingTheory/PrincipalIdealDomain.lean#L424-L425",
+        "name": "exists_gcd_eq_mul_add_mul"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "$\\Z/n\\Z$ and its invertible elements",
+        "file": "Mathlib/Data/ZMod/Basic.lean#L845-L846",
+        "name": "ZMod.unitOfCoprime"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Divisibility in integral domains",
+        "concept": "Euler's totient function ($\\varphi$)",
+        "file": "Mathlib/Data/Nat/Totient.lean#L29-L30",
+        "name": "Nat.totient"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "$K[X]$ is a euclidean ring when $K$ is a field",
+        "file": "Mathlib/Algebra/Polynomial/FieldDivision.lean#L317-L327",
+        "name": "Polynomial.instEuclideanDomain"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "irreducible polynomial",
+        "file": "Mathlib/Algebra/Associated/Basic.lean#L181-L185",
+        "name": "Irreducible"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "cyclotomic polynomials in $\\Q[X]$",
+        "file": "Mathlib/RingTheory/Polynomial/Cyclotomic/Basic.lean#L231-L233",
+        "name": "Polynomial.cyclotomic"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "Eisenstein's criterion",
+        "file": "Mathlib/RingTheory/EisensteinCriterion.lean#L82-L127",
+        "name": "Polynomial.irreducible_of_eisenstein_criterion"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "polynomial algebra in one or several indeterminates over a commutative ring",
+        "file": "Mathlib/Algebra/MvPolynomial/Basic.lean#L85-L86",
+        "name": "MvPolynomial"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "roots of a polynomial",
+        "file": "Mathlib/Algebra/Polynomial/Roots.lean#L48-L51",
+        "name": "Polynomial.roots"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "multiplicity",
+        "file": "Mathlib/Algebra/Polynomial/Div.lean#L484-L491",
+        "name": "Polynomial.rootMultiplicity"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "relationship between the coefficients and the roots of a split polynomial",
+        "file": "Mathlib/RingTheory/Polynomial/Vieta.lean#L124-L130",
+        "name": "Polynomial.coeff_eq_esymm_roots_of_card"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "Newton's identities",
+        "file": "Mathlib/RingTheory/MvPolynomial/Symmetric/NewtonIdentities.lean#L231-L242",
+        "name": "MvPolynomial.mul_esymm_eq_sum"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "polynomial derivative",
+        "file": "Mathlib/Algebra/Polynomial/Derivative.lean#L38-L48",
+        "name": "Polynomial.derivative"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "decomposition into sums of homogeneous polynomials",
+        "file": "Mathlib/RingTheory/MvPolynomial/Homogeneous.lean#L488-L493",
+        "name": "MvPolynomial.sum_homogeneousComponent"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Polynomial rings",
+        "concept": "symmetric polynomials",
+        "file": "Mathlib/RingTheory/MvPolynomial/Symmetric/Defs.lean#L82-L83",
+        "name": "MvPolynomial.IsSymmetric"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "fields",
+        "file": "Mathlib/Algebra/Field/Defs.lean#L175-L175",
+        "name": "Field"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "characteristic of a ring",
+        "file": "Mathlib/Algebra/CharP/Defs.lean#L163-L163",
+        "name": "ringChar"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "characteristic zero",
+        "file": "Mathlib/Algebra/CharZero/Defs.lean#L39-L42",
+        "name": "CharZero"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "characteristic p",
+        "file": "Mathlib/Algebra/CharP/Defs.lean#L40-L41",
+        "name": "CharP"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "Frobenius morphisms",
+        "file": "Mathlib/Algebra/CharP/ExpChar.lean#L268-L271",
+        "name": "frobenius"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "field $\\Q$ of rational numbers",
+        "file": "Mathlib/Algebra/Field/Rat.lean#L28-L37",
+        "name": "Rat.instField"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "field $\\R$ of real numbers",
+        "file": "Mathlib/Data/Real/Basic.lean#L534-L534",
+        "name": "Real.field"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "field $\\C$ of complex numbers",
+        "file": "Mathlib/Data/Complex/Basic.lean#L697-L705",
+        "name": "Complex.instField"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "$\\C$ is algebraically closed",
+        "file": "Mathlib/Analysis/Complex/Polynomial/Basic.lean#L32-L43",
+        "name": "Complex.exists_root"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "field of fractions of an integral domain",
+        "file": "Mathlib/RingTheory/Localization/FractionRing.lean#L40-L41",
+        "name": "IsFractionRing"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "algebraic elements",
+        "file": "Mathlib/RingTheory/Algebraic.lean#L30-L31",
+        "name": "IsAlgebraic"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "transcendental elements",
+        "file": "Mathlib/RingTheory/Algebraic.lean#L34-L35",
+        "name": "Transcendental"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "algebraic extensions",
+        "file": "Mathlib/RingTheory/Algebraic.lean#L50-L51",
+        "name": "Algebra.IsAlgebraic"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "algebraically closed fields",
+        "file": "Mathlib/FieldTheory/IsAlgClosed/Basic.lean#L55-L56",
+        "name": "IsAlgClosed"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "rupture fields",
+        "file": "Mathlib/RingTheory/AdjoinRoot.lean#L63-L64",
+        "name": "AdjoinRoot"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "splitting fields",
+        "file": "Mathlib/FieldTheory/SplittingField/Construction.lean#L212-L214",
+        "name": "Polynomial.SplittingField"
+    },
+    {
+        "domain": "Ring Theory",
+        "topic": "Field Theory",
+        "concept": "rational fraction fields with one indeterminate over a field",
+        "file": "Mathlib/FieldTheory/RatFunc/Defs.lean#L65-L67",
+        "name": "RatFunc"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Bilinear forms",
+        "concept": "bilinear forms",
+        "file": "Mathlib/LinearAlgebra/BilinearMap.lean#L373-L373",
+        "name": "LinearMap.BilinForm"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Bilinear forms",
+        "concept": "alternating bilinear forms",
+        "file": "Mathlib/LinearAlgebra/BilinearForm/Properties.lean#L124-L124",
+        "name": "LinearMap.BilinForm.IsAlt"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Bilinear forms",
+        "concept": "symmetric bilinear forms",
+        "file": "Mathlib/LinearAlgebra/BilinearForm/Properties.lean#L84-L84",
+        "name": "LinearMap.BilinForm.IsSymm"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Bilinear forms",
+        "concept": "nondegenerate forms",
+        "file": "Mathlib/LinearAlgebra/BilinearForm/Properties.lean#L305-L306",
+        "name": "LinearMap.BilinForm.Nondegenerate"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Bilinear forms",
+        "concept": "matrix representation",
+        "file": "Mathlib/LinearAlgebra/Matrix/BilinearForm.lean#L201-L202",
+        "name": "BilinForm.toMatrix"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Bilinear forms",
+        "concept": "change of coordinates",
+        "file": "Mathlib/LinearAlgebra/Matrix/BilinearForm.lean#L257-L260",
+        "name": "BilinForm.toMatrix_comp"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Quadratic forms",
+        "concept": "quadratic form",
+        "file": "Mathlib/LinearAlgebra/QuadraticForm/Basic.lean#L149-L149",
+        "name": "QuadraticForm"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Quadratic forms",
+        "concept": "polar form of a quadratic",
+        "file": "Mathlib/LinearAlgebra/QuadraticForm/Basic.lean#L95-L96",
+        "name": "QuadraticMap.polar"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Orthogonality",
+        "concept": "orthogonal elements",
+        "file": "Mathlib/LinearAlgebra/BilinearForm/Orthogonal.lean#L49-L50",
+        "name": "LinearMap.BilinForm.IsOrtho"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Orthogonality",
+        "concept": "adjoint endomorphism",
+        "file": "Mathlib/LinearAlgebra/BilinearForm/Properties.lean#L479-L481",
+        "name": "LinearMap.BilinForm.leftAdjointOfNondegenerate"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Orthogonality",
+        "concept": "Gram-Schmidt orthogonalisation",
+        "file": "Mathlib/Analysis/InnerProductSpace/GramSchmidtOrtho.lean#L76-L101",
+        "name": "gramSchmidt_orthogonal"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "Euclidean vector spaces",
+        "file": "Mathlib/Analysis/InnerProductSpace/Basic.lean#L105-L114",
+        "name": "InnerProductSpace"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "Hermitian vector spaces",
+        "file": "Mathlib/Analysis/InnerProductSpace/Basic.lean#L105-L114",
+        "name": "InnerProductSpace"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "dual isomorphism in the euclidean case",
+        "file": "Mathlib/Analysis/InnerProductSpace/Dual.lean#L99-L137",
+        "name": "InnerProductSpace.toDual"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "orthogonal complement",
+        "file": "Mathlib/Analysis/InnerProductSpace/Orthogonal.lean#L37-L41",
+        "name": "Submodule.orthogonal"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "Cauchy-Schwarz inequality",
+        "file": "Mathlib/Analysis/InnerProductSpace/Basic.lean#L709-L711",
+        "name": "inner_mul_inner_self_le"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "norm",
+        "file": "Mathlib/Analysis/InnerProductSpace/Basic.lean#L372-L372",
+        "name": "InnerProductSpace.Core.toNorm"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Euclidean and Hermitian spaces",
+        "concept": "orthonormal bases",
+        "file": "Mathlib/Analysis/InnerProductSpace/Projection.lean#L1342-L1352",
+        "name": "maximal_orthonormal_iff_basis_of_finiteDimensional"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Endomorphisms",
+        "concept": "orthogonal group",
+        "file": "Mathlib/LinearAlgebra/UnitaryGroup.lean#L201-L201",
+        "name": "Matrix.orthogonalGroup"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Endomorphisms",
+        "concept": "unitary group",
+        "file": "Mathlib/LinearAlgebra/UnitaryGroup.lean#L55-L56",
+        "name": "Matrix.unitaryGroup"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Endomorphisms",
+        "concept": "self-adjoint endomorphism",
+        "file": "Mathlib/Algebra/Star/SelfAdjoint.lean#L47-L48",
+        "name": "IsSelfAdjoint"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Endomorphisms",
+        "concept": "diagonalization of a self-adjoint endomorphism",
+        "file": "Mathlib/Analysis/InnerProductSpace/Spectrum.lean#L237-L251",
+        "name": "LinearMap.IsSymmetric.eigenvectorBasis_apply_self_apply"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Endomorphisms",
+        "concept": "decomposition of an orthogonal transformation as a product of reflections",
+        "file": "Mathlib/Analysis/InnerProductSpace/Projection.lean#L1167-L1175",
+        "name": "LinearIsometryEquiv.reflections_generate"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Low dimensions",
+        "concept": "cross product",
+        "file": "Mathlib/LinearAlgebra/CrossProduct.lean#L46-L58",
+        "name": "crossProduct"
+    },
+    {
+        "domain": "Bilinear and Quadratic Forms Over a Vector Space",
+        "topic": "Low dimensions",
+        "concept": "triple product",
+        "file": "Mathlib/LinearAlgebra/CrossProduct.lean#L101-L104",
+        "name": "triple_product_eq_det"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "General definitions",
+        "concept": "affine space",
+        "file": "Mathlib/Algebra/AddTorsor.lean#L46-L52",
+        "name": "AddTorsor"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "General definitions",
+        "concept": "affine function",
+        "file": "Mathlib/LinearAlgebra/AffineSpace/AffineMap.lean#L49-L54",
+        "name": "AffineMap"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "General definitions",
+        "concept": "affine subspace",
+        "file": "Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.lean#L136-L142",
+        "name": "AffineSubspace"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "General definitions",
+        "concept": "barycenter",
+        "file": "Mathlib/LinearAlgebra/AffineSpace/Combination.lean#L350-L353",
+        "name": "Finset.affineCombination"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "General definitions",
+        "concept": "affine span",
+        "file": "Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.lean#L482-L487",
+        "name": "affineSpan"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "General definitions",
+        "concept": "affine groups",
+        "file": "Mathlib/LinearAlgebra/AffineSpace/AffineEquiv.lean#L322-L329",
+        "name": "AffineEquiv.group"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Convexity",
+        "concept": "convex subsets",
+        "file": "Mathlib/Analysis/Convex/Basic.lean#L51-L52",
+        "name": "Convex"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Convexity",
+        "concept": "convex hull of a subset of an affine real space",
+        "file": "Mathlib/Analysis/Convex/Hull.lean#L42-L42",
+        "name": "convexHull"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Convexity",
+        "concept": "extreme point",
+        "file": "Mathlib/Analysis/Convex/Extreme.lean#L60-L61",
+        "name": "Set.extremePoints"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Euclidean affine spaces",
+        "concept": "isometries of a Euclidean affine space",
+        "file": "Mathlib/Analysis/Normed/Affine/Isometry.lean#L264-L265",
+        "name": "AffineIsometryEquiv"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Euclidean affine spaces",
+        "concept": "group of isometries of a Euclidean affine space",
+        "file": "Mathlib/Analysis/Normed/Affine/Isometry.lean#L498-L505",
+        "name": "AffineIsometryEquiv.instGroup"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Euclidean affine spaces",
+        "concept": "angles between vectors",
+        "file": "Mathlib/Geometry/Euclidean/Angle/Unoriented/Basic.lean#L43-L44",
+        "name": "InnerProductGeometry.angle"
+    },
+    {
+        "domain": "Affine and Euclidean Geometry",
+        "topic": "Euclidean affine spaces",
+        "concept": "cocyclicity",
+        "file": "Mathlib/Geometry/Euclidean/Sphere/Basic.lean#L183-L185",
+        "name": "EuclideanGeometry.Concyclic"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real numbers",
+        "concept": "definition of $\\R$",
+        "file": "Mathlib/Data/Real/Basic.lean#L32-L34",
+        "name": "Real"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real numbers",
+        "concept": "field structure",
+        "file": "Mathlib/Data/Real/Basic.lean#L534-L534",
+        "name": "Real.field"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real numbers",
+        "concept": "order",
+        "file": "Mathlib/Data/Real/Basic.lean#L494-L495",
+        "name": "Real.linearOrder"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences of real numbers",
+        "concept": "convergence",
+        "file": "Mathlib/Order/Filter/Basic.lean#L2602-L2603",
+        "name": "Filter.Tendsto"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences of real numbers",
+        "concept": "limit point",
+        "file": "Mathlib/Topology/Defs/Filter.lean#L257-L258",
+        "name": "MapClusterPt"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences of real numbers",
+        "concept": "recurrent sequences",
+        "file": "3",
+        "name": "Nat"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences of real numbers",
+        "concept": "Cauchy sequences",
+        "file": "Mathlib/Topology/UniformSpace/Cauchy.lean#L172-L173",
+        "name": "CauchySeq"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Topology of R",
+        "concept": "metric structure",
+        "file": "Mathlib/Topology/MetricSpace/Basic.lean#L118-L118",
+        "name": "Real.metricSpace"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Topology of R",
+        "concept": "completeness of R",
+        "file": "Mathlib/Topology/Instances/Real.lean#L118-L126",
+        "name": "Real.instCompleteSpace"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Topology of R",
+        "concept": "Bolzano-Weierstrass theorem",
+        "file": "Mathlib/Topology/MetricSpace/Sequences.lean#L40-L42",
+        "name": "tendsto_subseq_of_bounded"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Topology of R",
+        "concept": "compact subsets of $\\R$",
+        "file": "Mathlib/Topology/MetricSpace/Bounded.lean#L282-L284",
+        "name": "Metric.isCompact_iff_isClosed_bounded"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Topology of R",
+        "concept": "connected subsets of $\\R$",
+        "file": "Mathlib/Topology/Order/IntermediateValue.lean#L438-L449",
+        "name": "setOf_isPreconnected_eq_of_ordered"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Topology of R",
+        "concept": "additive subgroups of $\\R$",
+        "file": "Mathlib/Topology/Algebra/Order/Archimedean.lean#L63-L67",
+        "name": "AddSubgroup.dense_or_cyclic"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Numerical series",
+        "concept": "Geometric series",
+        "file": "Mathlib/Analysis/SpecificLimits/Normed.lean#L383-L384",
+        "name": "tsum_geometric_of_norm_lt_one"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Numerical series",
+        "concept": "convergence of $p$-series for $p>1$",
+        "file": "Mathlib/Analysis/PSeries.lean#L296-L298",
+        "name": "Real.summable_one_div_nat_rpow"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Numerical series",
+        "concept": "alternating series",
+        "file": "Mathlib/Analysis/SpecificLimits/Normed.lean#L816-L819",
+        "name": "Antitone.tendsto_alternating_series_of_tendsto_zero"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real-valued functions defined on a subset of $\\R$",
+        "concept": "continuity",
+        "file": "Mathlib/Topology/Defs/Basic.lean#L141-L144",
+        "name": "Continuous"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real-valued functions defined on a subset of $\\R$",
+        "concept": "limits",
+        "file": "Mathlib/Order/Filter/Basic.lean#L2602-L2603",
+        "name": "Filter.Tendsto"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real-valued functions defined on a subset of $\\R$",
+        "concept": "intermediate value theorem",
+        "file": "Mathlib/Topology/Order/IntermediateValue.lean#L476-L478",
+        "name": "intermediate_value_Icc"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real-valued functions defined on a subset of $\\R$",
+        "concept": "image of a segment",
+        "file": "Mathlib/Topology/Algebra/Order/Compact.lean#L542-L545",
+        "name": "ContinuousOn.image_Icc"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real-valued functions defined on a subset of $\\R$",
+        "concept": "continuity of monotone functions",
+        "file": "Mathlib/Topology/Order/MonotoneContinuity.lean#L280-L286",
+        "name": "OrderIso.continuous"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Real-valued functions defined on a subset of $\\R$",
+        "concept": "continuity of inverse functions",
+        "file": "Mathlib/Topology/Order/MonotoneContinuity.lean#L289-L292",
+        "name": "OrderIso.toHomeomorph"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "derivative at a point",
+        "file": "Mathlib/Analysis/Calculus/Deriv/Basic.lean#L120-L121",
+        "name": "HasDerivAt"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "differentiable functions",
+        "file": "Mathlib/Analysis/Calculus/Deriv/Basic.lean#L120-L121",
+        "name": "HasDerivAt"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "derivative of a composition of functions",
+        "file": "Mathlib/Analysis/Calculus/Deriv/Comp.lean#L278-L280",
+        "name": "deriv.comp"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "derivative of the inverse of a function",
+        "file": "Mathlib/Analysis/Calculus/Deriv/Inverse.lean#L55-L58",
+        "name": "HasStrictDerivAt.of_local_left_inverse"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "Rolle's theorem",
+        "file": "Mathlib/Analysis/Calculus/LocalExtr/Rolle.lean#L54-L57",
+        "name": "exists_deriv_eq_zero"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "mean value theorem",
+        "file": "Mathlib/Analysis/Calculus/MeanValue.lean#L741-L746",
+        "name": "exists_ratio_deriv_eq_ratio_slope"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "higher order derivatives of functions",
+        "file": "Mathlib/Analysis/Calculus/IteratedDeriv/Defs.lean#L53-L54",
+        "name": "iteratedDeriv"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "$C^k$ functions",
+        "file": "Mathlib/Analysis/Calculus/ContDiff/Defs.lean#L716-L717",
+        "name": "ContDiff"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Differentiability",
+        "concept": "Leibniz formula",
+        "file": "Mathlib/Analysis/Calculus/Deriv/Mul.lean#L214-L216",
+        "name": "deriv_mul"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Taylor-like theorems",
+        "concept": "Taylor's theorem with Lagrange form for remainder",
+        "file": "Mathlib/Analysis/Calculus/Taylor.lean#L250-L270",
+        "name": "taylor_mean_remainder_lagrange"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "polynomial functions",
+        "file": "Mathlib/Algebra/Polynomial/Eval.lean#L268-L269",
+        "name": "Polynomial.eval"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "rational functions",
+        "file": "Mathlib/FieldTheory/RatFunc/AsPolynomial.lean#L106-L107",
+        "name": "RatFunc.eval"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "logarithms",
+        "file": "Mathlib/Analysis/SpecialFunctions/Log/Basic.lean#L40-L41",
+        "name": "Real.log"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "exponential",
+        "file": "Mathlib/Data/Complex/Exponential.lean#L103-L104",
+        "name": "Real.exp"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "power functions",
+        "file": "Mathlib/Analysis/SpecialFunctions/Pow/Real.lean#L33-L34",
+        "name": "Real.rpow"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "trigonometric functions",
+        "file": "Mathlib/Data/Complex/Exponential.lean#L108-L109",
+        "name": "Real.sin"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "hyperbolic trigonometric functions",
+        "file": "Mathlib/Data/Complex/Exponential.lean#L127-L128",
+        "name": "Real.sinh"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "inverse trigonometric functions",
+        "file": "Mathlib/Analysis/SpecialFunctions/Trigonometric/Inverse.lean#L34-L35",
+        "name": "Real.arcsin"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Elementary functions (trigonometric, rational, $\\exp$, $\\log$, etc)",
+        "concept": "inverse hyperbolic trigonometric functions",
+        "file": "Mathlib/Analysis/SpecialFunctions/Arsinh.lean#L51-L52",
+        "name": "Real.arsinh"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Integration",
+        "concept": "Riemann sums",
+        "file": "Mathlib/Analysis/BoxIntegral/Basic.lean#L77-L78",
+        "name": "BoxIntegral.integralSum"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Integration",
+        "concept": "antiderivative of a continuous function",
+        "file": "Mathlib/MeasureTheory/Integral/FundThmCalculus.lean#L660-L662",
+        "name": "Continuous.deriv_integral"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Integration",
+        "concept": "change of variable",
+        "file": "Mathlib/MeasureTheory/Integral/FundThmCalculus.lean#L1475-L1478",
+        "name": "intervalIntegral.integral_comp_smul_deriv"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Integration",
+        "concept": "integration by parts",
+        "file": "Mathlib/MeasureTheory/Integral/FundThmCalculus.lean#L1378-L1385",
+        "name": "intervalIntegral.integral_mul_deriv_eq_deriv_mul"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "pointwise convergence",
+        "file": "Mathlib/Topology/Constructions.lean#L1189-L1191",
+        "name": "tendsto_pi_nhds"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "uniform convergence",
+        "file": "Mathlib/Topology/UniformSpace/UniformConvergence.lean#L124-L125",
+        "name": "TendstoUniformly"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "continuity of the limit of a sequence of functions",
+        "file": "Mathlib/Topology/UniformSpace/UniformConvergence.lean#L803-L807",
+        "name": "continuous_of_uniform_approx_of_continuous"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "continuity of the sum of a series of functions",
+        "file": "Mathlib/Analysis/NormedSpace/FunctionSeries.lean#L74-L77",
+        "name": "continuous_tsum"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "differentiability of the limit of a sequence of functions",
+        "file": "Mathlib/Analysis/Calculus/UniformLimitsDeriv.lean#L425-L431",
+        "name": "hasFDerivAt_of_tendstoUniformly"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "differentiability of the sum of a series of functions",
+        "file": "Mathlib/Analysis/Calculus/SmoothSeries.lean#L141-L150",
+        "name": "differentiable_tsum"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "Weierstrass polynomial approximation theorem",
+        "file": "Mathlib/Topology/ContinuousFunction/Weierstrass.lean#L51-L75",
+        "name": "polynomialFunctions_closure_eq_top"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Sequences and series of functions",
+        "concept": "Weierstrass trigonometric approximation theorem",
+        "file": "Mathlib/Analysis/Fourier/AddCircle.lean#L227-L230",
+        "name": "span_fourier_closure_eq_top"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Convexity",
+        "concept": "convex functions of a real variable",
+        "file": "Mathlib/Analysis/Convex/Function.lean#L52-L54",
+        "name": "ConvexOn"
+    },
+    {
+        "domain": "Single Variable Real Analysis",
+        "topic": "Convexity",
+        "concept": "characterizations of convexity",
+        "file": "Mathlib/Analysis/Convex/Deriv.lean#L212-L217",
+        "name": "convexOn_of_deriv2_nonneg"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "radius of convergence",
+        "file": "Mathlib/Analysis/Analytic/Basic.lean#L118-L119",
+        "name": "FormalMultilinearSeries.radius"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "continuity",
+        "file": "Mathlib/Analysis/Analytic/Basic.lean#L1122-L1125",
+        "name": "HasFPowerSeriesOnBall.continuousOn"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "differentiability with respect to the complex variable",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Analytic.lean#L67-L69",
+        "name": "HasFPowerSeriesOnBall.differentiableOn"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "complex exponential",
+        "file": "Mathlib/Data/Complex/Exponential.lean#L51-L52",
+        "name": "Complex.exp"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "extension of trigonometric functions(cos) to the complex plane",
+        "file": "Mathlib/Data/Complex/Exponential.lean#L61-L62",
+        "name": "Complex.cos"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "extension of trigonometric functions(sin) to the complex plane",
+        "file": "Mathlib/Data/Complex/Exponential.lean#L56-L57",
+        "name": "Complex.sin"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "power series expansion of elementary functions(cos)",
+        "file": "Mathlib/Analysis/SpecialFunctions/Trigonometric/Series.lean#L64-L67",
+        "name": "Complex.hasSum_cos"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Complex Valued series",
+        "concept": "power series expansion of elementary functions(sin)",
+        "file": "Mathlib/Analysis/SpecialFunctions/Trigonometric/Series.lean#L70-L74",
+        "name": "Complex.hasSum_sin"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "holomorphic functions",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Basic.lean#L188-L189",
+        "name": "DifferentiableOn"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "Cauchy formulas",
+        "file": "Mathlib/Analysis/Complex/CauchyIntegral.lean#L442-L473",
+        "name": "Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "analyticity of a holomorphic function",
+        "file": "Mathlib/Analysis/Complex/CauchyIntegral.lean#L565-L569",
+        "name": "DifferentiableOn.analyticAt"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "principle of isolated zeros",
+        "file": "Mathlib/Analysis/Analytic/IsolatedZeros.lean#L117-L122",
+        "name": "AnalyticAt.eventually_eq_zero_or_eventually_ne_zero"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "principle of analytic continuation",
+        "file": "Mathlib/Analysis/Analytic/IsolatedZeros.lean#L248-L253",
+        "name": "AnalyticOn.eqOn_of_preconnected_of_frequently_eq"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "maximum principle",
+        "file": "Mathlib/Analysis/Complex/AbsMax.lean#L318-L325",
+        "name": "Complex.eventually_eq_of_isLocalMax_norm"
+    },
+    {
+        "domain": "Single Variable Complex Analysis",
+        "topic": "Functions on one complex variable",
+        "concept": "holomorphic stability under uniform convergence",
+        "file": "Mathlib/Analysis/Complex/LocallyUniformLimit.lean#L132-L148",
+        "name": "TendstoLocallyUniformlyOn.differentiableOn"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "topology of a metric space",
+        "file": "Mathlib/Topology/MetricSpace/Pseudo/Defs.lean#L737-L738",
+        "name": "Metric.isOpen_iff"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "induced topology",
+        "file": "Mathlib/Topology/Defs/Induced.lean#L55-L65",
+        "name": "TopologicalSpace.induced"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "finite product of metric spaces",
+        "file": "Mathlib/Topology/MetricSpace/Basic.lean#L145-L145",
+        "name": "metricSpacePi"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "limits of sequences",
+        "file": "Mathlib/Topology/MetricSpace/Pseudo/Defs.lean#L812-L815",
+        "name": "Metric.tendsto_atTop"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "cluster points",
+        "file": "Mathlib/Topology/Defs/Filter.lean#L252-L253",
+        "name": "ClusterPt"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "continuous functions",
+        "file": "Mathlib/Topology/Defs/Basic.lean#L141-L144",
+        "name": "Continuous"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "homeomorphisms",
+        "file": "Mathlib/Topology/Homeomorph.lean#L38-L43",
+        "name": "Homeomorph"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "compactness in terms of open covers (Borel-Lebesgue)",
+        "file": "Mathlib/Topology/Compactness/Compact.lean#L352-L355",
+        "name": "isCompact_iff_finite_subcover"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "sequential compactness is equivalent to compactness (Bolzano-Weierstrass)",
+        "file": "Mathlib/Topology/Sequences.lean#L372-L373",
+        "name": "UniformSpace.isCompact_iff_isSeqCompact"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "connectedness",
+        "file": "Mathlib/Topology/Connected/Basic.lean#L613-L615",
+        "name": "ConnectedSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "connected components",
+        "file": "Mathlib/Topology/Connected/Basic.lean#L456-L457",
+        "name": "connectedComponent"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "path connectedness",
+        "file": "Mathlib/Topology/Connected/PathConnected.lean#L839-L840",
+        "name": "IsPathConnected"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "Lipschitz functions",
+        "file": "Mathlib/Topology/EMetricSpace/Lipschitz.lean#L54-L54",
+        "name": "LipschitzWith"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "uniformly continuous functions",
+        "file": "Mathlib/Topology/MetricSpace/Pseudo/Defs.lean#L671-L673",
+        "name": "Metric.uniformContinuous_iff"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "Heine-Cantor theorem",
+        "file": "Mathlib/Topology/UniformSpace/Compact.lean#L150-L155",
+        "name": "CompactSpace.uniformContinuous_of_continuous"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "complete metric spaces",
+        "file": "Mathlib/Topology/MetricSpace/Cauchy.lean#L45-L47",
+        "name": "Metric.complete_of_cauchySeq_tendsto"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Topology and Metric Spaces",
+        "concept": "contraction mapping theorem",
+        "file": "Mathlib/Topology/MetricSpace/Contracting.lean#L90-L99",
+        "name": "ContractingWith.exists_fixedPoint"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "topology on a normed vector space",
+        "file": "Mathlib/Analysis/Normed/Module/Basic.lean#L55-L56",
+        "name": "NormedSpace.boundedSMul"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "Banach open mapping theorem",
+        "file": "Mathlib/Analysis/Normed/Operator/Banach.lean#L229-L250",
+        "name": "ContinuousLinearMap.isOpenMap"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "equivalence of norms in finite dimension",
+        "file": "Mathlib/Topology/Algebra/Module/FiniteDimension.lean#L346-L351",
+        "name": "LinearEquiv.toContinuousLinearEquiv"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "norms $\\lVert\\cdot\\rVert_p$ on $\\R^n$ and $\\C^n$",
+        "file": "Mathlib/Analysis/Normed/Lp/PiLp.lean#L620-L622",
+        "name": "PiLp.normedSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "absolutely convergent series in Banach spaces",
+        "file": "Mathlib/Analysis/Normed/Group/InfiniteSum.lean#L161-L162",
+        "name": "Summable.of_norm"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "continuous linear maps",
+        "file": "Mathlib/Topology/Algebra/Module/Basic.lean#L225-L228",
+        "name": "ContinuousLinearMap"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "norm of a continuous linear map",
+        "file": "Mathlib/Analysis/Normed/Operator/ContinuousLinearMap.lean#L50-L51",
+        "name": "LinearMap.mkContinuous"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "uniform convergence norm (sup-norm)",
+        "file": "Mathlib/Topology/EMetricSpace/Basic.lean#L117-L121",
+        "name": "EMetric.tendstoUniformlyOn_iff"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "normed space of bounded continuous functions",
+        "file": "Mathlib/Topology/ContinuousFunction/Bounded.lean#L1100-L1104",
+        "name": "BoundedContinuousFunction.instNormedSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "completeness of the space of bounded continuous functions",
+        "file": "Mathlib/Topology/ContinuousFunction/Bounded.lean#L287-L319",
+        "name": "BoundedContinuousFunction.instCompleteSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "Heine-Borel theorem (closed bounded subsets are compact in finite dimension)",
+        "file": "Mathlib/Analysis/Normed/Module/FiniteDimension.lean#L586-L589",
+        "name": "FiniteDimensional.proper"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "Riesz' lemma (unit-ball characterization of finite dimension)",
+        "file": "Mathlib/Analysis/Normed/Module/FiniteDimension.lean#L466-L468",
+        "name": "FiniteDimensional.of_isCompact_closedBall"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Normed vector spaces on $\\R$ and $\\C$",
+        "concept": "Arzela-Ascoli theorem",
+        "file": "Mathlib/Topology/ContinuousFunction/Bounded.lean#L534-L544",
+        "name": "BoundedContinuousFunction.arzela_ascoli"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "Hilbert projection theorem",
+        "file": "Mathlib/Analysis/InnerProductSpace/Projection.lean#L70-L177",
+        "name": "exists_norm_eq_iInf_of_complete_convex"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "orthogonal projection onto closed vector subspaces",
+        "file": "Mathlib/Analysis/InnerProductSpace/Projection.lean#L440-L466",
+        "name": "orthogonalProjection"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "dual space",
+        "file": "Mathlib/Analysis/Normed/Module/Dual.lean#L58-L58",
+        "name": "NormedSpace.Dual"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "Riesz representation theorem",
+        "file": "Mathlib/Analysis/InnerProductSpace/Dual.lean#L99-L137",
+        "name": "InnerProductSpace.toDual"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "inner product space $l^2$",
+        "file": "Mathlib/Analysis/InnerProductSpace/l2Space.lean#L110-L149",
+        "name": "lp.instInnerProductSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "completeness of $l^2$",
+        "file": "Mathlib/Analysis/Normed/Lp/lpSpace.lean#L1090-L1099",
+        "name": "lp.completeSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "inner product space $L^2$",
+        "file": "Mathlib/MeasureTheory/Function/L2Space.lean#L207-L211",
+        "name": "MeasureTheory.L2.innerProductSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "completeness of $L^2$",
+        "file": "Mathlib/MeasureTheory/Function/LpSpace.lean#L1701-L1703",
+        "name": "MeasureTheory.Lp.instCompleteSpace"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "Hilbert bases",
+        "file": "Mathlib/Analysis/InnerProductSpace/l2Space.lean#L376-L378",
+        "name": "HilbertBasis"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "example, the Hilbert basis of trigonometric polynomials",
+        "file": "Mathlib/Analysis/Fourier/AddCircle.lean#L356-L357",
+        "name": "fourierBasis"
+    },
+    {
+        "domain": "Topology",
+        "topic": "Hilbert spaces",
+        "concept": "Lax-Milgram theorem",
+        "file": "Mathlib/Analysis/InnerProductSpace/LaxMilgram.lean#L103-L104",
+        "name": "IsCoercive.continuousLinearEquivOfBilin"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "differentiable functions on an open subset of $\\R^n$",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Basic.lean#L188-L189",
+        "name": "DifferentiableOn"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "differentials (linear tangent functions)",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Basic.lean#L181-L184",
+        "name": "fderiv"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "chain rule",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Comp.lean#L146-L148",
+        "name": "fderiv.comp"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "mean value theorem",
+        "file": "Mathlib/Analysis/Calculus/MeanValue.lean#L741-L746",
+        "name": "exists_ratio_deriv_eq_ratio_slope"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "differentiable functions",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Basic.lean#L193-L194",
+        "name": "Differentiable"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "$k$-times continuously differentiable functions",
+        "file": "Mathlib/Analysis/Calculus/ContDiff/Defs.lean#L716-L717",
+        "name": "ContDiff"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "partial derivatives commute",
+        "file": "Mathlib/Analysis/Calculus/FDeriv/Symmetric.lean#L320-L322",
+        "name": "second_derivative_symmetric"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "local extrema",
+        "file": "Mathlib/Analysis/Calculus/LocalExtr/Basic.lean#L200-L203",
+        "name": "IsLocalMin.fderiv_eq_zero"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "convexity of functions on an open convex subset of $\\R^n$",
+        "file": "Mathlib/Analysis/Convex/Function.lean#L52-L54",
+        "name": "ConvexOn"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "diffeomorphisms",
+        "file": "Mathlib/Geometry/Manifold/ChartedSpace.lean#L1199-L1202",
+        "name": "Structomorph"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "inverse function theorem",
+        "file": "Mathlib/Analysis/Calculus/InverseFunctionTheorem/Deriv.lean#L37-L38",
+        "name": "HasStrictDerivAt.to_localInverse"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential calculus",
+        "concept": "implicit function theorem",
+        "file": "Mathlib/Analysis/Calculus/Implicit.lean#L147-L148",
+        "name": "ImplicitFunctionData.implicitFunction"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential equations",
+        "concept": "Cauchy-Lipschitz Theorem",
+        "file": "Mathlib/Analysis/ODE/PicardLindelof.lean#L337-L345",
+        "name": "IsPicardLindelof.exists_forall_hasDerivWithinAt_Icc_eq"
+    },
+    {
+        "domain": "Multivariable calculus",
+        "topic": "Differential equations",
+        "concept": "Grönwall lemma",
+        "file": "Mathlib/Analysis/ODE/Gronwall.lean#L123-L128",
+        "name": "norm_le_gronwallBound_of_norm_deriv_right_le"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "measurable spaces",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Defs.lean#L44-L54",
+        "name": "MeasurableSpace"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "sigma-algebras",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Defs.lean#L44-L54",
+        "name": "MeasurableSpace"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "product of sigma-algebras",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Basic.lean#L812-L813",
+        "name": "MeasurableSpace.pi"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "Borel sigma-algebras",
+        "file": "Mathlib/MeasureTheory/Constructions/BorelSpace/Basic.lean#L111-L113",
+        "name": "BorelSpace"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "positive measure",
+        "file": "Mathlib/MeasureTheory/Measure/MeasureSpaceDef.lean#L69-L72",
+        "name": "MeasureTheory.Measure"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "counting measure",
+        "file": "Mathlib/MeasureTheory/Measure/Count.lean#L26-L27",
+        "name": "MeasureTheory.Measure.count"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "Lebesgue measure",
+        "file": "Mathlib/MeasureTheory/Measure/MeasureSpaceDef.lean#L321-L322",
+        "name": "MeasureTheory.MeasureSpace"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "product measure",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Basic.lean#L812-L813",
+        "name": "MeasurableSpace.pi"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "measurable functions",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Defs.lean#L476-L477",
+        "name": "Measurable"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Measure theory",
+        "concept": "approximation by step functions",
+        "file": "Mathlib/MeasureTheory/Function/SimpleFuncDense.lean#L141-L151",
+        "name": "MeasureTheory.SimpleFunc.tendsto_approxOn"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "integral of positive measurable functions",
+        "file": "Mathlib/MeasureTheory/Integral/Lebesgue.lean#L55-L57",
+        "name": "MeasureTheory.lintegral"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "monotone convergence theorem",
+        "file": "Mathlib/MeasureTheory/Integral/Lebesgue.lean#L1011-L1039",
+        "name": "MeasureTheory.lintegral_iInf_ae"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "Fatou's lemma",
+        "file": "Mathlib/MeasureTheory/Integral/Lebesgue.lean#L1106-L1108",
+        "name": "MeasureTheory.lintegral_liminf_le"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "integrable functions",
+        "file": "Mathlib/MeasureTheory/Function/L1Space.lean#L389-L390",
+        "name": "MeasureTheory.Integrable"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "dominated convergence theorem",
+        "file": "Mathlib/MeasureTheory/Integral/DominatedConvergence.lean#L53-L62",
+        "name": "MeasureTheory.tendsto_integral_of_dominated_convergence"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "finite dimensional vector-valued integrable functions",
+        "file": "Mathlib/MeasureTheory/Function/L1Space.lean#L389-L390",
+        "name": "MeasureTheory.Integrable"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "continuity of integrals with respect to parameters",
+        "file": "Mathlib/MeasureTheory/Integral/DominatedConvergence.lean#L289-L298",
+        "name": "intervalIntegral.continuous_of_dominated_interval"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "$\\mathrm{L}^p$ spaces where $1 ≤ p ≤ ∞$",
+        "file": "Mathlib/MeasureTheory/Function/LpSpace.lean#L104-L111",
+        "name": "MeasureTheory.Lp"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "Completeness of $\\mathrm{L}^p$ spaces",
+        "file": "Mathlib/MeasureTheory/Function/LpSpace.lean#L1701-L1703",
+        "name": "MeasureTheory.Lp.instCompleteSpace"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "Holder's inequality",
+        "file": "Mathlib/MeasureTheory/Integral/MeanInequalities.lean#L478-L483",
+        "name": "NNReal.lintegral_mul_le_Lp_mul_Lq"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "Fubini's theorem",
+        "file": "Mathlib/MeasureTheory/Constructions/Prod/Integral.lean#L419-L437",
+        "name": "MeasureTheory.integral_prod"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "change of variables for multiple integrals",
+        "file": "Mathlib/MeasureTheory/Function/Jacobian.lean#L1167-L1177",
+        "name": "MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "change of variables to polar co-ordinates",
+        "file": "Mathlib/Analysis/SpecialFunctions/PolarCoord.lean#L121-L146",
+        "name": "integral_comp_polarCoord_symm"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "convolution",
+        "file": "Mathlib/Analysis/Convolution.lean#L403-L405",
+        "name": "MeasureTheory.convolution"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "approximation by convolution",
+        "file": "Mathlib/Analysis/Calculus/BumpFunction/Convolution.lean#L83-L90",
+        "name": "ContDiffBump.convolution_tendsto_right"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Integration",
+        "concept": "regularization by convolution",
+        "file": "Mathlib/Analysis/Convolution.lean#L1315-L1319",
+        "name": "HasCompactSupport.contDiff_convolution_left"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Fourier analysis",
+        "concept": "Fourier series of locally integrable periodic real-valued functions",
+        "file": "Mathlib/Analysis/Fourier/AddCircle.lean#L356-L357",
+        "name": "fourierBasis"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Fourier analysis",
+        "concept": "Riemann-Lebesgue lemma",
+        "file": "Mathlib/Analysis/Fourier/RiemannLebesgueLemma.lean#L255-L276",
+        "name": "tendsto_integral_exp_smul_cocompact"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Fourier analysis",
+        "concept": "Parseval theorem",
+        "file": "Mathlib/Analysis/Fourier/AddCircle.lean#L385-L396",
+        "name": "tsum_sq_fourierCoeff"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Fourier analysis",
+        "concept": "Fourier transform on $\\mathrm{L}^1(\\R^d)$",
+        "file": "Mathlib/Analysis/Fourier/FourierTransform.lean#L379-L380",
+        "name": "Real.fourierIntegral"
+    },
+    {
+        "domain": "Measures and integral calculus",
+        "topic": "Fourier analysis",
+        "concept": "Fourier inversion formula",
+        "file": "Mathlib/Analysis/Fourier/Inversion.lean#L168-L172",
+        "name": "Continuous.fourier_inversion"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "probability measure",
+        "file": "Mathlib/MeasureTheory/Measure/Typeclasses.lean#L243-L244",
+        "name": "MeasureTheory.IsProbabilityMeasure"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "events",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Defs.lean#L59-L60",
+        "name": "MeasurableSet"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "independent events",
+        "file": "Mathlib/Probability/Independence/Basic.lean#L111-L112",
+        "name": "ProbabilityTheory.iIndepSet"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "sigma-algebra",
+        "file": "Mathlib/MeasureTheory/MeasurableSpace/Defs.lean#L44-L54",
+        "name": "MeasurableSpace"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "independent sigma-algebra",
+        "file": "Mathlib/Probability/Independence/Basic.lean#L98-L100",
+        "name": "ProbabilityTheory.iIndep"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "$0$-$1$ law",
+        "file": "Mathlib/Probability/Independence/ZeroOne.lean#L281-L286",
+        "name": "ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "Borel-Cantelli lemma (easy direction)",
+        "file": "Mathlib/MeasureTheory/OuterMeasure/BorelCantelli.lean#L62-L63",
+        "name": "MeasureTheory.measure_limsup_eq_zero"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "Borel-Cantelli lemma (difficult direction)",
+        "file": "Mathlib/Probability/BorelCantelli.lean#L65-L97",
+        "name": "ProbabilityTheory.measure_limsup_eq_one"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Definitions of a probability space",
+        "concept": "conditional probability",
+        "file": "Mathlib/Probability/ConditionalProbability.lean#L71-L72",
+        "name": "ProbabilityTheory.cond"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "discrete law",
+        "file": "Mathlib/Probability/ProbabilityMassFunction/Basic.lean#L42-L43",
+        "name": "PMF"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "probability density function",
+        "file": "Mathlib/Probability/Density.lean#L66-L68",
+        "name": "MeasureTheory.HasPDF"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "independence of random variables",
+        "file": "Mathlib/Probability/Independence/Basic.lean#L123-L125",
+        "name": "ProbabilityTheory.iIndepFun"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "mean of a random variable",
+        "file": "Mathlib/MeasureTheory/Integral/Bochner.lean#L707-L711",
+        "name": "MeasureTheory.integral"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "variance of a real-valued random variable",
+        "file": "Mathlib/Probability/Variance.lean#L53-L54",
+        "name": "ProbabilityTheory.variance"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "moments",
+        "file": "Mathlib/Probability/Moments.lean#L49-L50",
+        "name": "ProbabilityTheory.moment"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Random variables and their laws",
+        "concept": "Bernoulli law",
+        "file": "Mathlib/Probability/ProbabilityMassFunction/Constructions.lean#L260-L261",
+        "name": "PMF.bernoulli"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Convergence of a sequence of random variables",
+        "concept": "convergence in probability",
+        "file": "Mathlib/MeasureTheory/Function/ConvergenceInMeasure.lean#L51-L53",
+        "name": "MeasureTheory.TendstoInMeasure"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Convergence of a sequence of random variables",
+        "concept": "$\\mathrm{L}^p$ convergence",
+        "file": "Mathlib/MeasureTheory/Function/LpSpace.lean#L104-L111",
+        "name": "MeasureTheory.Lp"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Convergence of a sequence of random variables",
+        "concept": "almost surely convergence",
+        "file": "Mathlib/MeasureTheory/OuterMeasure/AE.lean#L43-L45",
+        "name": "MeasureTheory.ae"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Convergence of a sequence of random variables",
+        "concept": "Markov inequality",
+        "file": "Mathlib/MeasureTheory/Integral/Lebesgue.lean#L846-L848",
+        "name": "MeasureTheory.mul_meas_ge_le_lintegral"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Convergence of a sequence of random variables",
+        "concept": "Chebychev inequality",
+        "file": "Mathlib/Probability/Variance.lean#L254-L260",
+        "name": "ProbabilityTheory.meas_ge_le_variance_div_sq"
+    },
+    {
+        "domain": "Probability Theory",
+        "topic": "Convergence of a sequence of random variables",
+        "concept": "strong law of large numbers",
+        "file": "Mathlib/Probability/StrongLaw.lean#L790-L820",
+        "name": "ProbabilityTheory.strong_law_ae"
+    },
+    {
+        "domain": "Distribution calculus",
+        "topic": "Spaces $\\mathcal{S}(\\R^d)$",
+        "concept": "Schwartz space of rapidly decreasing functions",
+        "file": "Mathlib/Analysis/Distribution/SchwartzSpace.lean#L73-L76",
+        "name": "SchwartzMap"
+    },
+    {
+        "domain": "Distribution calculus",
+        "topic": "Spaces $\\mathcal{S}(\\R^d)$",
+        "concept": "stability by derivation",
+        "file": "Mathlib/Analysis/Distribution/SchwartzSpace.lean#L945-L951",
+        "name": "SchwartzMap.fderivCLM"
+    },
+    {
+        "domain": "Numerical Analysis",
+        "topic": "Approximation of numerical functions",
+        "concept": "Lagrange interpolation",
+        "file": "Mathlib/LinearAlgebra/Lagrange.lean#L287-L296",
+        "name": "Lagrange.interpolate"
+    },
+    {
+        "domain": "Numerical Analysis",
+        "topic": "Approximation of numerical functions",
+        "concept": "Lagrange polynomial of a function at (n + 1) points",
+        "file": "Mathlib/LinearAlgebra/Lagrange.lean#L287-L296",
+        "name": "Lagrange.interpolate"
+    }
+]
